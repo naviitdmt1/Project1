@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ----------- icon ---------  */
+#icon {
+    font-family: cursive; 
+    font-weight: 700; 
+    font-size: 40px; 
+    color: red; 
+    margin: 1px 25px; 
+    padding: 5px;
+}
+
+/*----------  navbar ----------- */
+.navbar>ul {
+    list-style-type: none;
+    /* margin: 10px; */
+    overflow: hidden;
+    background-color: black;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1d1b1b;
+}
+
+
+/* containers CSS  */
+.container {
+    position: absolute;
+    top: 100px;
+    margin-left: 10px;
+    /* width: 100vw; */
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.box {
+    border: 1px solid rgb(12, 12, 11);
+    margin: 10px;
+    width: 50vh;
+    height: 40vh;
+    overflow: hidden;
+    float: left;
+}
+.box > button {
+    width: 100%;
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid rgb(24, 23, 24);
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box > button:hover {
+    color: red;
+    background-color: #1d1b1b;
+}
+
+.box > p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: bisque;
+    padding: 1px;
+    
+}
+
+.box > video {
+    width: 100%;
+    /* height: 72%; */
+}
+
+#show  {
+    clear: both;
+}
+#mov {
+    clear: both;
+}
